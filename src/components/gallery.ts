@@ -1,6 +1,6 @@
 export const Gallery = () => {
     return `
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <h2 class="text-3xl font-bold mb-4">Screenshots</h2>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <div class="space-y-2">
