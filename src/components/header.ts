@@ -17,7 +17,7 @@ export function Header(): string {
 
             <div class="flex items-center gap-1 md:order-4 md:ms-4">
             <!-- Download button - responsive sizing -->
-            <a class="hidden sm:inline-flex w-full sm:w-auto whitespace-nowrap py-2 md:py-2.5 px-3 md:px-4 inline-flex justify-center items-center gap-x-2 text-xs md:text-sm font-medium rounded-full border border-gray-300/50 dark:border-gray-600/50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-400/60 dark:hover:border-gray-500/60 hover:text-gray-800 dark:hover:text-gray-100 focus:outline-hidden focus:bg-gray-50 dark:focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300 shadow-sm" href="#">
+            <a class="hidden sm:inline-flex w-full sm:w-auto whitespace-nowrap py-2 md:py-2.5 px-3 md:px-4 inline-flex justify-center items-center gap-x-2 text-xs md:text-sm font-medium rounded-full border border-gray-300/50 dark:border-gray-600/50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 hover:border-gray-400/60 dark:hover:border-gray-500/60 hover:text-gray-800 dark:hover:text-gray-100 focus:outline-hidden focus:bg-gray-50 dark:focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none transition-all duration-300 shadow-sm" href="https://github.com/tolgazorlu/presskit" target="_blank">
                 <span class="hidden md:inline">Download Press Kit</span>
                 <span class="md:hidden">Download</span>
             </a>
@@ -48,10 +48,7 @@ export function Header(): string {
                 </a>
                 
                 <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-gray-400 dark:border-gray-500 font-medium text-gray-800 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 focus:outline-hidden transition-colors duration-300 text-base md:text-sm" href="index.html" aria-current="page">Home</a>
-                <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600 focus:outline-hidden transition-all duration-300 text-base md:text-sm" href="work.html">Screenshots</a>
-                <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600 focus:outline-hidden transition-all duration-300 text-base md:text-sm" href="reviews.html">Trailer</a>
-                <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600 focus:outline-hidden transition-all duration-300 text-base md:text-sm" href="reviews.html">Logos</a>
-                <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600 focus:outline-hidden transition-all duration-300 text-base md:text-sm" href="reviews.html">Social</a>
+               <a class="py-2 md:py-3 px-4 md:px-2 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600 focus:outline-hidden transition-all duration-300 text-base md:text-sm" href="reviews.html">Social</a>
             </div>
             </div>
         </nav>
