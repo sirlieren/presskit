@@ -44,7 +44,7 @@ export function Hero(): string {
           
           <!-- Thumbnail Gallery - Enhanced Mobile Experience -->
           <div class="flex gap-2 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-hide">
-            <div class="relative flex-shrink-0 thumbnail-item border-2 border-blue-500 rounded-md cursor-pointer hover:opacity-80 transition-all snap-start" data-type="video" data-src="https://www.youtube.com/embed/77248MsuRfo">
+            <div class="relative flex-shrink-0 thumbnail-item border-2 border-cyan-500 rounded-md cursor-pointer hover:opacity-80 transition-all snap-start" data-type="video" data-src="https://www.youtube.com/embed/77248MsuRfo">
               <div class="w-20 h-12 sm:w-24 sm:h-16 bg-gray-900 rounded-md flex items-center justify-center">
                 <svg class="w-4 h-4 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
@@ -72,7 +72,7 @@ export function Hero(): string {
           <div class="mt-12 sm:mt-16 max-w-4xl mx-auto">
             <div class="mb-6 sm:mb-8">
               <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-3 sm:mb-4">About Game</h2>
-              <div class="w-12 sm:w-16 h-1 bg-blue-600 dark:bg-blue-500"></div>
+              <div class="w-12 sm:w-16 h-1 bg-gradient-to-r from-cyan-500 to-teal-500 dark:from-cyan-400 dark:to-teal-400"></div>
             </div>
             
             <div class="prose prose-sm sm:prose-lg max-w-none text-gray-700 dark:text-gray-300">
@@ -116,27 +116,9 @@ export function Hero(): string {
 
           <!-- Game Action Buttons -->
           <div class="mb-4 sm:mb-6 space-y-3">
-            <button class="w-full bg-green-600 hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 text-white px-4 sm:px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm sm:text-base">
-              Play Now!
+            <button class="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 dark:from-emerald-400 dark:to-teal-500 dark:hover:from-emerald-500 dark:hover:to-teal-600 text-white px-4 sm:px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm sm:text-base">
+              Play Now
             </button>
-          </div>
-          
-          <!-- Reviews Section -->
-          <div class="mb-4 sm:mb-6 space-y-2">
-            <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-              <span class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 uppercase">Recent Reviews:</span>
-              <div class="flex items-center gap-2">
-                <span class="text-blue-400 dark:text-blue-300 font-medium text-sm sm:text-base">Very Positive</span>
-                <span class="text-gray-400 dark:text-gray-500 text-sm">(292)</span>
-              </div>
-            </div>
-            <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
-              <span class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 uppercase">All Reviews:</span>
-              <div class="flex items-center gap-2">
-                <span class="text-blue-400 dark:text-blue-300 font-medium text-sm sm:text-base">Very Positive</span>
-                <span class="text-gray-400 dark:text-gray-500 text-sm">(4,524)</span>
-              </div>
-            </div>
           </div>
           
           <!-- Release Information -->
@@ -151,18 +133,14 @@ export function Hero(): string {
             </div>
             <div class="flex justify-between items-start">
               <span class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 uppercase">Developer:</span>
-              <span class="text-blue-400 hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-200 cursor-pointer font-medium text-sm sm:text-base text-right">Team K6</span>
-            </div>
-            <div class="flex justify-between items-start">
-              <span class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 uppercase">Publisher:</span>
-              <span class="text-blue-400 hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-200 cursor-pointer font-medium text-sm sm:text-base text-right">Team K6</span>
+              <span class="text-cyan-500 hover:text-cyan-600 dark:text-cyan-400 dark:hover:text-cyan-300 cursor-pointer font-medium text-sm sm:text-base text-right">Team K6</span>
             </div>
           </div>
 
           <!-- Contact Information -->
-          <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+          <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-gradient-to-r from-blue-50 to-indigo-50 dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900 rounded-lg border border-blue-100 dark:border-slate-700">
             <div class="flex items-center gap-3">
-              <div class="w-8 h-8 bg-blue-500 dark:bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div class="w-8 h-8 bg-gradient-to-r from-cyan-500 to-teal-500 dark:from-cyan-400 dark:to-teal-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
@@ -170,7 +148,7 @@ export function Hero(): string {
               <div class="min-w-0 flex-1">
                 <p class="text-xs text-gray-500 dark:text-gray-400 uppercase">Contact Mail</p>
                 <button onclick="navigator.clipboard.writeText('ka6andev@gmail.com'); this.innerHTML='✓ Copied!'; setTimeout(() => this.innerHTML='ka6andev@gmail.com', 2000)" 
-                        class="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors duration-200 text-sm sm:text-base truncate block w-full text-left">
+                        class="text-cyan-600 hover:text-cyan-700 dark:text-cyan-400 dark:hover:text-cyan-300 font-medium transition-colors duration-200 text-sm sm:text-base truncate block w-full text-left">
                   ka6andev@gmail.com
                 </button>
               </div>
@@ -181,12 +159,12 @@ export function Hero(): string {
           <div class="mb-4 sm:mb-6">
             <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mb-3">Popular user-defined tags for this product:</p>
             <div class="flex flex-wrap gap-2">
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">Cozy</span>
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">Open World</span>
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">Adventure</span>
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">Simulation</span>
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">Cute</span>
-              <span class="px-2 sm:px-3 py-1 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-xs sm:text-sm rounded cursor-pointer transition-colors">+</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-700 hover:to-cyan-700 dark:from-teal-500 dark:to-cyan-500 dark:hover:from-teal-600 dark:hover:to-cyan-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">Cozy</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 dark:from-blue-500 dark:to-purple-500 dark:hover:from-blue-600 dark:hover:to-purple-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">Open World</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 dark:from-emerald-500 dark:to-teal-500 dark:hover:from-emerald-600 dark:hover:to-teal-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">Adventure</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 dark:from-cyan-500 dark:to-blue-500 dark:hover:from-cyan-600 dark:hover:to-blue-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">Simulation</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 dark:from-purple-500 dark:to-pink-500 dark:hover:from-purple-600 dark:hover:to-pink-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">Cute</span>
+              <span class="px-2 sm:px-3 py-1 bg-gradient-to-r from-slate-600 to-gray-600 hover:from-slate-700 hover:to-gray-700 dark:from-slate-500 dark:to-gray-500 dark:hover:from-slate-600 dark:hover:to-gray-600 text-white text-xs sm:text-sm rounded cursor-pointer transition-all duration-200">+</span>
             </div>
           </div>
           
@@ -210,10 +188,10 @@ export function Hero(): string {
           
           <!-- Action Buttons -->
           <div class="space-y-3">
-            <button class="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white px-6 py-3 rounded-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+            <button class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 dark:from-cyan-500 dark:to-blue-500 dark:hover:from-cyan-600 dark:hover:to-blue-600 text-white px-6 py-3 rounded-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
               Download Press Kit
             </button>
-            <button class="w-full bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-sm font-semibold transition-all duration-200">
+            <button class="w-full bg-gradient-to-r from-slate-200 to-gray-200 hover:from-slate-300 hover:to-gray-300 dark:from-slate-700 dark:to-gray-700 dark:hover:from-slate-600 dark:hover:to-gray-600 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-sm font-semibold transition-all duration-200">
               Preview Assets
             </button>
           </div>
