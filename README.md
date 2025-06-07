@@ -1,39 +1,37 @@
-# 🐸 Ribbit Up: Frog Climber - Press Kit
+# Presskit Studio
 
-A beautiful, responsive press kit website for the indie game **Ribbit Up: Frog Climber** - a charming cozy adventure game featuring a frog protagonist on a climbing journey.
+A beautiful, responsive press kit website template for indie game developers. Create stunning promotional websites for your games with modern web technologies - completely free and easy to use.
 
-![Ribbit Up: Frog Climber](https://img.shields.io/badge/Game-Ribbit%20Up%3A%20Frog%20Climber-green?style=for-the-badge)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![Template](https://img.shields.io/badge/Template-Press%20Kit%20Studio-blue?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 🎮 About the Game
+## 🎯 About Presskit Studio
 
-**Ribbit Up: Frog Climber** is a cozy climbing adventure game where players take on the role of Ribbit, a charming frog seeking revenge on the witch who pushed them down. The game features:
+**Presskit Studio** is a modern, open-source press kit template designed to help indie game developers create professional promotional websites for their games. Built with cutting-edge web technologies, this template provides everything you need to showcase your game professionally to press, influencers, and potential players.
 
-- **Open-world exploration** in a mysterious swamp environment
-- **Climbing mechanics** - if you can reach it, you can climb it!
-- **Multiplayer support** - play solo or with friends online
-- **Cozy gameplay** with puzzle-solving and cooking elements
-- **Character customization** and base building
-- **Meaningful relationships** with diverse NPCs
+### Why Presskit Studio?
 
-**Release Date:** February 20, 2025  
-**Developer:** Team K6  
-**Contact:** ka6andev@gmail.com
+- **Completely Free** - No licensing fees, no subscriptions
+- **Easy to Use** - Get up and running in minutes, not hours
+- **Zero Configuration** - Works out of the box with sensible defaults
+- **Modern Technology** - Built with Vite, TypeScript, and Tailwind CSS
+- **Professional Results** - Rival major studio press kits with minimal effort
 
 ## 🌟 Features
 
-This press kit website includes:
+This press kit template includes everything you need:
 
 - **Interactive Media Gallery** with YouTube video integration and screenshot carousel
-- **Responsive Design** that works on all devices
-- **Game Information Panel** with release details, reviews, and tags
+- **Responsive Design** that works perfectly on all devices
+- **Game Information Panel** with customizable release details, reviews, and tags
 - **Contact Information** with copy-to-clipboard functionality
 - **Multi-language Support** indicators
 - **Dark/Light Mode** support
-- **Modern UI** built with Tailwind CSS
+- **Modern UI** built with Tailwind CSS v4
+- **SEO Optimized** for search engines and social media sharing
+- **Lightning Fast** development with hot reload
 
 ## 🚀 Quick Start
 
@@ -46,8 +44,8 @@ This press kit website includes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/presskit.git
-   cd presskit
+   git clone https://github.com/tolgazorlu/presskit.git
+   cd presskit-studio
    ```
 
 2. **Install dependencies**
@@ -77,26 +75,23 @@ This press kit website includes:
 ### Project Structure
 
 ```
-presskit/
+presskit-studio/
 ├── public/
-│   ├── assets/          # Game screenshots and media
-│   │   ├── assets/          # Game screenshots and media
-│   │   └── vite.svg
-│   ├── src/
-│   │   ├── components/      # UI components
-│   │   │   ├── hero.ts      # Main hero section with media gallery
-│   │   │   ├── header.ts    # Navigation header
-│   │   │   ├── footer.ts    # Footer with links
-│   │   │   ├── backgroundHero.ts  # Background component
-│   │   │   ├── logos.ts     # Logo components (unused)
-│   │   │   └── screenshots.ts     # Screenshot components (unused)
-│   │   ├── main.ts          # Main application entry point
-│   │   ├── style.css        # Global styles
-│   │   └── vite-env.d.ts    # TypeScript declarations
-│   ├── index.html           # HTML template
-│   ├── package.json         # Dependencies and scripts
-│   ├── tsconfig.json        # TypeScript configuration
-│   └── vite.config.ts       # Vite configuration
+│   ├── assets/images          # Your game screenshots and media
+│   └── vite.svg
+├── src/
+│   ├── components/      # UI components
+│   │   ├── hero.ts      # Main hero section with media gallery
+│   │   ├── header.ts    # Navigation header
+│   │   ├── footer.ts    # Footer with links
+│   │   └── backgroundHero.ts  # Background component
+│   ├── main.ts          # Main application entry point
+│   ├── style.css        # Global styles
+│   └── vite-env.d.ts    # TypeScript declarations
+├── index.html           # HTML template
+├── package.json         # Dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+└── vite.config.ts       # Vite configuration
 ```
 
 ### Tech Stack
@@ -109,53 +104,27 @@ presskit/
 
 ## 🎨 Customization
 
-### Adding New Screenshots
+### Adding Your Game Content
 
-1. Add your images to the `public/assets/` directory
-2. Update the thumbnail gallery in `src/components/hero.ts`
-3. Add new thumbnail items with appropriate `data-src` attributes
+1. **Replace screenshots** - Add your images to the `public/assets/` directory
+2. **Update game information** - Edit details in `src/components/hero.ts`:
+   - Game title and description
+   - Release dates
+   - Contact information
+   - Tags and supported languages
+   - Review scores
+3. **Customize styling** - Modify colors, fonts, and layout to match your game's aesthetic
 
-### Updating Game Information
+### Easy Content Updates
 
-Edit the game details in `src/components/hero.ts`:
-- Game description
-- Release dates
-- Contact information
-- Tags and languages
-- Review scores
-
-### Styling
-
-The project uses Tailwind CSS v4. You can:
-- Modify existing styles in component files
-- Add global styles in `src/style.css`
-- Configure Tailwind in `vite.config.ts`
+The template is designed for developers who want to focus on their games, not web development. Most content changes require editing simple JavaScript objects - no complex templating or CMS required.
 
 ## 📱 Responsive Design
 
-The press kit is fully responsive and optimized for:
-- **Desktop** (1024px+)
-- **Tablet** (768px - 1023px)
-- **Mobile** (320px - 767px)
-
-## 🔧 Configuration
-
-### Vite Configuration
-
-The project uses a minimal Vite configuration with Tailwind CSS plugin:
-
-```typescript
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-
-export default defineConfig({
-  plugins: [tailwindcss()],
-})
-```
-
-### TypeScript Configuration
-
-Configured for modern TypeScript with strict type checking and Vite-specific settings.
+Your press kit will look perfect on every device:
+- **Desktop** (1024px+) - Full-featured layout with side panels
+- **Tablet** (768px - 1023px) - Optimized touch interface
+- **Mobile** (320px - 767px) - Streamlined mobile experience
 
 ## 🚀 Deployment
 
@@ -165,25 +134,34 @@ Configured for modern TypeScript with strict type checking and Vite-specific set
 pnpm build
 ```
 
-The built files will be in the `dist/` directory, ready for deployment to any static hosting service.
+The built files will be in the `dist/` directory, ready for deployment.
 
 ### Deployment Options
 
-- **Vercel:** Connect your GitHub repository for automatic deployments
-- **Netlify:** Drag and drop the `dist` folder or connect via Git
-- **GitHub Pages:** Use GitHub Actions for automated deployment
-- **Any static hosting:** Upload the `dist` folder contents
+Deploy anywhere static sites are supported:
+- **Firebase** - Connect your repository for automatic deployments
+- **Netlify** - Drag and drop or Git integration
+- **GitHub Pages** - Free hosting with GitHub Actions
+- **Any CDN/Static Host** - Upload the `dist` folder
 
-### Environment Variables
+## 🎮 Perfect for Indie Developers
 
-No environment variables are required for basic functionality. For custom API endpoints or analytics, you may need to add:
+Presskit Studio eliminates the barrier between having a great game and having a great way to present it. Instead of spending weeks learning web development or hiring expensive designers, focus on what you do best - making games - while still having a professional online presence that rivals major studios.
 
-```bash
-VITE_ANALYTICS_ID=your-analytics-id
-VITE_API_BASE_URL=your-api-url
-```
+### Who This Is For
+
+- **Solo Indie Developers** - Get professional results without a team
+- **Small Game Studios** - Consistent branding across multiple games
+- **Game Jam Participants** - Quick press kit creation for submissions
+- **Student Developers** - Professional portfolio pieces
 
 ## 🤝 Contributing
+
+We welcome contributions! Whether it's:
+- New features or components
+- Bug fixes or improvements
+- Documentation updates
+- Design enhancements
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -193,21 +171,15 @@ VITE_API_BASE_URL=your-api-url
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-**Team K6**
-- Email: ka6andev@gmail.com
-- Game Release: February 20, 2025
+This project is licensed under the MIT License - completely free for personal and commercial use.
 
 ## 🙏 Acknowledgments
 
-- Built with [Vite](https://vitejs.dev/) for fast development experience
-- Styled with [Tailwind CSS](https://tailwindcss.com/) for modern UI
-- Game media placeholder images from [Placehold.co](https://placehold.co/)
+- Built with [Vite](https://vitejs.dev/) for exceptional developer experience
+- Styled with [Tailwind CSS](https://tailwindcss.com/) for modern, responsive design
 - Icons from [Heroicons](https://heroicons.com/)
+- Inspired by the need for accessible, professional press kit tools
 
 ---
 
-**Note:** This is a press kit website for promotional purposes. The actual game "Ribbit Up: Frog Climber" is developed by Team K6 and is scheduled for release on February 20, 2025.
+**Ready to showcase your game?** Clone Presskit Studio today and have your professional press kit live in minutes. No web development experience required.
