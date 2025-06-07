@@ -194,7 +194,7 @@ export function Hero(): string {
             <button onclick="downloadLogo()" class="cursor-pointer w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 dark:from-amber-500 dark:to-orange-500 dark:hover:from-amber-600 dark:hover:to-orange-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
               Download Logo
             </button>
-            <button onclick="downloadVideo()" class="cursor-pointer w-full bg-gradient-to-r from-red-500 to-pink-600 hover:from-red-600 hover:to-pink-700 dark:from-red-500 dark:to-pink-500 dark:hover:from-red-600 dark:hover:to-pink-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
+            <button class="cursor-pointer w-full bg-gradient-to-r from-red-500 to-pink-600 hover:from-red-600 hover:to-pink-700 dark:from-red-500 dark:to-pink-500 dark:hover:from-red-600 dark:hover:to-pink-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
               Get All Videos (Trailer, Gameplay, Clips etc.)
             </button>
             
