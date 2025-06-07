@@ -1,7 +1,7 @@
 export function Header(): string {
     return `
     <header class="fixed top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
-        <nav class="mt-2 md:mt-4 relative max-w-4xl w-full bg-gradient-to-r from-slate-50 via-gray-50 to-blue-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-700 backdrop-blur-lg bg-opacity-95 dark:bg-opacity-95 border border-gray-200/60 dark:border-gray-600/60 rounded-[20px] md:rounded-[28px] mx-2 flex flex-wrap md:flex-nowrap items-center justify-between p-2 md:p-1 ps-4 md:ps-5 md:py-0 sm:mx-auto shadow-lg shadow-gray-500/10 dark:shadow-black/20">
+        <nav class="mt-2 md:mt-4 relative max-w-4xl w-full bg-gradient-to-r from-cyan-50 via-teal-50 to-blue-100 dark:from-slate-800 dark:via-purple-900/30 dark:to-blue-900/40 backdrop-blur-lg bg-opacity-95 dark:bg-opacity-95 border border-cyan-200/60 dark:border-purple-600/40 rounded-[20px] md:rounded-[28px] mx-2 flex flex-wrap md:flex-nowrap items-center justify-between p-2 md:p-1 ps-4 md:ps-5 md:py-0 sm:mx-auto shadow-lg shadow-cyan-500/10 dark:shadow-purple-900/20">
             <div class="flex items-center min-w-0 flex-1 md:flex-none">
             <!-- Logo -->
             <a class="flex-none rounded-md text-base md:text-lg inline-block font-bold focus:outline-hidden focus:opacity-80 text-gray-800 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300 truncate" href="../templates/personal/index.html" aria-label="Team K6">
