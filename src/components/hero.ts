@@ -189,10 +189,10 @@ export function Hero(): string {
           <!-- Action Buttons -->
           <div class="space-y-3">
             <button class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 dark:from-cyan-500 dark:to-blue-500 dark:hover:from-cyan-600 dark:hover:to-blue-600 text-white px-6 py-3 rounded-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
-              Download Press Kit
+              Download Image Asests
             </button>
             <button class="w-full bg-gradient-to-r from-slate-200 to-gray-200 hover:from-slate-300 hover:to-gray-300 dark:from-slate-700 dark:to-gray-700 dark:hover:from-slate-600 dark:hover:to-gray-600 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-sm font-semibold transition-all duration-200">
-              Preview Assets
+              Download Logos
             </button>
           </div>
           
