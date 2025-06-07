@@ -1,14 +1,20 @@
 import './style.css'
 import { Header } from './components/header.ts'
 import { BackgroundHero } from './components/backgroundHero.ts'
-import { Hero } from './components/hero.ts'
-import { Gallery } from './components/gallery.ts'
+import { Hero, setupMediaGallery } from './components/hero.ts'
+// import { Screenshots } from './components/screenshots.ts'
+// import { Logos } from './components/logos.ts'
 import { Footer } from './components/footer.ts'
+
+// ${Logos()}
+// ${Screenshots()}
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   ${Header()}
   ${BackgroundHero()}
   ${Hero()}
-  ${Gallery()}
   ${Footer()}
 `
+
+// Initialize media gallery after DOM is rendered
+setupMediaGallery()
