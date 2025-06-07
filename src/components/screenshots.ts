@@ -1,7 +1,7 @@
-export const Gallery = () => {
+export const Screenshots = () => {
     return `
-    <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 class="text-3xl font-bold mb-4">Screenshots</h2>
+    <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <h2 class="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">Screenshots</h2>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <div class="space-y-2">
             <img class="w-full h-auto object-cover rounded-md" src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Gallery Masonry Image">
