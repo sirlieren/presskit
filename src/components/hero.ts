@@ -194,6 +194,10 @@ export function Hero(): string {
             <button onclick="downloadLogo()" class="cursor-pointer w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 dark:from-amber-500 dark:to-orange-500 dark:hover:from-amber-600 dark:hover:to-orange-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
               Download Logo
             </button>
+            <button onclick="downloadVideo()" class="cursor-pointer w-full bg-gradient-to-r from-red-500 to-pink-600 hover:from-red-600 hover:to-pink-700 dark:from-red-500 dark:to-pink-500 dark:hover:from-red-600 dark:hover:to-pink-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
+              Get All Videos (Trailer, Gameplay, Clips etc.)
+            </button>
+            
           </div>
           
         </div>
@@ -391,10 +395,29 @@ export async function downloadImages() {
   }
 }
 
+// Function to download video from YouTube
+export function downloadVideo() {
+  const videoUrl = 'https://www.youtube.com/watch?v=77248MsuRfo'
+
+  // Create a modal or confirmation dialog
+  const userConfirmed = confirm(
+    'This will open a third-party YouTube downloader service. ' +
+    'Please note that downloading YouTube videos should comply with YouTube\'s Terms of Service and copyright laws. ' +
+    'Continue?'
+  )
+
+  if (userConfirmed) {
+    // Open Y2mate (popular YouTube downloader) with the video URL
+    const downloaderUrl = `https://www.y2mate.com/youtube/${encodeURIComponent(videoUrl)}`
+    window.open(downloaderUrl, '_blank')
+  }
+}
+
 // Make functions available globally
 if (typeof window !== 'undefined') {
   (window as any).downloadLogo = downloadLogo;
-  (window as any).downloadImages = downloadImages
+  (window as any).downloadImages = downloadImages;
+  (window as any).downloadVideo = downloadVideo
 }
 
 // Call this function after the Hero component is rendered to the DOM
