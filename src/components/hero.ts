@@ -51,14 +51,14 @@ export function Hero(): string {
                 </svg>
               </div>
             </div>
-            <img src="/assets/gameplay1.jpg" alt="Screenshot 2" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay1.jpg">
-            <img src="/assets/gameplay2.jpg" alt="Screenshot 3" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay2.jpg">
-            <img src="/assets/gameplay3.jpg" alt="Screenshot 4" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay3.jpg">
-            <img src="/assets/gameplay4.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay4.jpg">
-            <img src="/assets/gameplay5.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay5.jpg">
-            <img src="/assets/gameplay6.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay6.jpg">
-            <img src="/assets/gameplay7.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay7.jpg">
-            <img src="/assets/gameplay8.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/gameplay8.jpg">
+            <img src="/assets/images/gameplay1.jpg" alt="Screenshot 2" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay1.jpg">
+            <img src="/assets/images/gameplay2.jpg" alt="Screenshot 3" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay2.jpg">
+            <img src="/assets/images/gameplay3.jpg" alt="Screenshot 4" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay3.jpg">
+            <img src="/assets/images/gameplay4.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay4.jpg">
+            <img src="/assets/images/gameplay5.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay5.jpg">
+            <img src="/assets/images/gameplay6.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay6.jpg">
+            <img src="/assets/images/gameplay7.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay7.jpg">
+            <img src="/assets/images/gameplay8.jpg" alt="Screenshot 5" class="w-20 h-12 sm:w-24 sm:h-16 object-cover rounded-md cursor-pointer hover:opacity-80 transition-all thumbnail-item border-2 border-transparent snap-start" data-type="image" data-src="/assets/images/gameplay8.jpg">
             
             <!-- Navigation arrows - Hidden on mobile, shown on larger screens -->
             <button class="hidden sm:flex flex-shrink-0 w-8 h-12 sm:h-16 bg-gray-800/80 hover:bg-gray-700 dark:bg-gray-700/80 dark:hover:bg-gray-600 text-white rounded-md items-center justify-center transition-colors snap-start">
@@ -99,7 +99,7 @@ export function Hero(): string {
         <div class="lg:col-span-1 order-1 lg:order-2">
           <!-- Game Logo/Title -->
           <div class="mb-4 sm:mb-6">
-            <img src="/assets/heroImage.jpg" alt="Ribbit Up: Frog Climber Logo" class="w-full max-w-sm h-32 sm:h-40 md:h-48 object-cover rounded-lg mb-4 mx-auto lg:mx-0">
+            <img src="/assets/images/heroImage.jpg" alt="Ribbit Up: Frog Climber Logo" class="w-full max-w-sm h-32 sm:h-40 md:h-48 object-cover rounded-lg mb-4 mx-auto lg:mx-0">
           </div>
           
           <!-- Game Title -->
@@ -116,7 +116,7 @@ export function Hero(): string {
 
           <!-- Game Action Buttons -->
           <div class="mb-4 sm:mb-6 space-y-3">
-            <button class="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 dark:from-emerald-400 dark:to-teal-500 dark:hover:from-emerald-500 dark:hover:to-teal-600 text-white px-4 sm:px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm sm:text-base">
+            <button class="w-full bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 dark:from-emerald-400 dark:to-green-500 dark:hover:from-emerald-500 dark:hover:to-green-600 text-white px-4 sm:px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm sm:text-base">
               Play Now
             </button>
           </div>
@@ -138,9 +138,9 @@ export function Hero(): string {
           </div>
 
           <!-- Contact Information -->
-          <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-gradient-to-r from-blue-50 to-indigo-50 dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900 rounded-lg border border-blue-100 dark:border-slate-700">
+          <div class="mb-4 sm:mb-6 p-3 sm:p-4 bg-gradient-to-r from-indigo-50 to-purple-50 dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900 rounded-lg border border-indigo-100 dark:border-slate-700">
             <div class="flex items-center gap-3">
-              <div class="w-8 h-8 bg-gradient-to-r from-cyan-500 to-teal-500 dark:from-cyan-400 dark:to-teal-400 rounded-full flex items-center justify-center flex-shrink-0">
+              <div class="w-8 h-8 bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-400 dark:to-purple-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
@@ -148,7 +148,7 @@ export function Hero(): string {
               <div class="min-w-0 flex-1">
                 <p class="text-xs text-gray-500 dark:text-gray-400 uppercase">Contact Mail</p>
                 <button onclick="navigator.clipboard.writeText('ka6andev@gmail.com'); this.innerHTML='✓ Copied!'; setTimeout(() => this.innerHTML='ka6andev@gmail.com', 2000)" 
-                        class="text-cyan-600 hover:text-cyan-700 dark:text-cyan-400 dark:hover:text-cyan-300 font-medium transition-colors duration-200 text-sm sm:text-base truncate block w-full text-left">
+                        class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium transition-colors duration-200 text-sm sm:text-base truncate block w-full text-left">
                   ka6andev@gmail.com
                 </button>
               </div>
@@ -188,11 +188,11 @@ export function Hero(): string {
           
           <!-- Action Buttons -->
           <div class="space-y-3">
-            <button class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 dark:from-cyan-500 dark:to-blue-500 dark:hover:from-cyan-600 dark:hover:to-blue-600 text-white px-6 py-3 rounded-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
-              Download Image Asests
+            <button onclick="downloadImages()" class="cursor-pointer w-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 dark:from-blue-500 dark:to-indigo-500 dark:hover:from-blue-600 dark:hover:to-indigo-600 text-white px-6 py-3 rounded-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200">
+              Download Images
             </button>
-            <button class="w-full bg-gradient-to-r from-slate-200 to-gray-200 hover:from-slate-300 hover:to-gray-300 dark:from-slate-700 dark:to-gray-700 dark:hover:from-slate-600 dark:hover:to-gray-600 text-gray-800 dark:text-gray-200 px-6 py-3 rounded-sm font-semibold transition-all duration-200">
-              Download Logos
+            <button onclick="downloadLogo()" class="cursor-pointer w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 dark:from-amber-500 dark:to-orange-500 dark:hover:from-amber-600 dark:hover:to-orange-600 text-white px-6 py-3 rounded-sm font-semibold transition-all duration-200">
+              Download Logo
             </button>
           </div>
           
@@ -261,6 +261,140 @@ export function setupMediaGallery() {
       })
     }
   }
+}
+
+// Function to download the logo
+export function downloadLogo() {
+  const link = document.createElement('a')
+  link.href = '/assets/logo.png'
+  link.download = 'ribbit-up-logo.png'
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
+
+// Function to download all images as a zip file
+export async function downloadImages() {
+  try {
+    // Show loading state
+    const button = document.querySelector('[onclick="downloadImages()"]') as HTMLButtonElement
+    let originalText = 'Download Images'
+    if (button) {
+      originalText = button.innerHTML
+      button.innerHTML = 'Downloading...'
+      button.disabled = true
+    }
+
+    // List of all images to download
+    const imageFiles = [
+      'gameplay1.jpg',
+      'gameplay2.jpg',
+      'gameplay3.jpg',
+      'gameplay4.jpg',
+      'gameplay5.jpg',
+      'gameplay6.jpg',
+      'gameplay7.jpg',
+      'gameplay8.jpg',
+      'heroImage.jpg',
+      'background.png'
+    ]
+
+    // Create a simple zip-like structure using fetch and blob
+    const imageBlobs: { name: string; blob: Blob }[] = []
+
+    // Download all images as blobs
+    for (const filename of imageFiles) {
+      try {
+        const response = await fetch(`/assets/images/${filename}`)
+        if (response.ok) {
+          const blob = await response.blob()
+          imageBlobs.push({ name: filename, blob })
+        }
+      } catch (error) {
+        console.warn(`Failed to download ${filename}:`, error)
+      }
+    }
+
+    // Function to load JSZip dynamically
+    const loadJSZip = (): Promise<any> => {
+      return new Promise((resolve, reject) => {
+        if ((window as any).JSZip) {
+          resolve((window as any).JSZip)
+          return
+        }
+
+        const script = document.createElement('script')
+        script.src = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js'
+        script.onload = () => resolve((window as any).JSZip)
+        script.onerror = reject
+        document.head.appendChild(script)
+      })
+    }
+
+    // Try to use JSZip if available, otherwise fall back to individual downloads
+    try {
+      const JSZip = await loadJSZip()
+      const zip = new JSZip()
+
+      // Create a folder structure in the zip
+      const imagesFolder = zip.folder('ribbit-up-images')
+
+      // Add all images to the zip
+      imageBlobs.forEach(({ name, blob }) => {
+        imagesFolder.file(name, blob)
+      })
+
+      // Generate and download the zip file
+      const content = await zip.generateAsync({ type: 'blob' })
+      const link = document.createElement('a')
+      link.href = URL.createObjectURL(content)
+      link.download = 'ribbit-up-images.zip'
+      link.style.display = 'none'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      URL.revokeObjectURL(link.href)
+
+    } catch (zipError) {
+      console.warn('JSZip not available, falling back to individual downloads:', zipError)
+      // Fallback: download images individually with delays
+      for (let i = 0; i < imageBlobs.length; i++) {
+        const { name, blob } = imageBlobs[i]
+        setTimeout(() => {
+          const link = document.createElement('a')
+          link.href = URL.createObjectURL(blob)
+          link.download = name
+          link.style.display = 'none'
+          document.body.appendChild(link)
+          link.click()
+          document.body.removeChild(link)
+          URL.revokeObjectURL(link.href)
+        }, i * 200)
+      }
+    }
+
+    // Restore button state
+    if (button) {
+      button.innerHTML = originalText
+      button.disabled = false
+    }
+  } catch (error) {
+    console.error('Error downloading images:', error)
+    alert('Failed to download images. Please try again.')
+
+    // Restore button state on error
+    const button = document.querySelector('[onclick="downloadImages()"]') as HTMLButtonElement
+    if (button) {
+      button.innerHTML = 'Download Images'
+      button.disabled = false
+    }
+  }
+}
+
+// Make functions available globally
+if (typeof window !== 'undefined') {
+  (window as any).downloadLogo = downloadLogo;
+  (window as any).downloadImages = downloadImages
 }
 
 // Call this function after the Hero component is rendered to the DOM
