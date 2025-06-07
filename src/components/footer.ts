@@ -5,14 +5,14 @@ export const Footer = () => {
   <!-- Grid -->
   <div class="text-center">
     <div>
-      <a class="flex-none text-lg sm:text-xl font-semibold text-white dark:text-gray-100" href="#" aria-label="Brand">TEAM K6</a>
+      <a class="flex-none text-lg sm:text-xl font-semibold text-white dark:text-gray-100" href="#" aria-label="Brand">Ribbit Up Frog Climber</a>
     </div>
     <!-- End Col -->
 
     <div class="mt-3 space-y-2">
-      <p class="text-sm sm:text-base text-gray-400 dark:text-gray-500">We're part of the <a class="text-cyan-400 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-cyan-300" href="#">Presskit Studio</a> family.</p>
+      <p class="text-sm sm:text-base text-gray-400 dark:text-gray-500">We're part of the <a class="text-cyan-400 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-cyan-300" href="#">TEAM K6</a> family.</p>
       <p class="text-sm sm:text-base text-gray-400 dark:text-gray-500">
-        © 2025 Presskit Studio.
+        © 2025 TEAM K6.
       </p>
     </div>
 
