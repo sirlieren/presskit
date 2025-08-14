@@ -44,7 +44,7 @@ export function Hero(): string {
           
           <!-- Thumbnail Gallery - Enhanced Mobile Experience -->
           <div class="flex gap-2 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-hide">
-            <div class="relative flex-shrink-0 thumbnail-item border-2 border-cyan-500 rounded-md cursor-pointer hover:opacity-80 transition-all snap-start" data-type="video" data-src="https://www.youtube.com/embed/77248MsuRfo">
+            <div class="relative flex-shrink-0 thumbnail-item border-2 border-cyan-500 rounded-md cursor-pointer hover:opacity-80 transition-all snap-start" data-type="video" data-src="https://www.youtube.com/embed/beulDzYZyKY?si=VlPBXEbdi3gIGZMy">
               <div class="w-20 h-12 sm:w-24 sm:h-16 bg-gray-900 rounded-md flex items-center justify-center">
                 <svg class="w-4 h-4 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z"/>
@@ -105,7 +105,7 @@ Every run is different. Every decision is a gamble. And every bug is out to get 
         <div class="lg:col-span-1 order-1 lg:order-2">
           <!-- Game Logo/Title -->
           <div class="mb-4 sm:mb-6">
-            <img src="/assets/images/heroImage.png" alt="Ribbit Up: Frog Climber Logo" class="w-full max-w-sm h-32 sm:h-40 md:h-48 object-cover rounded-lg mb-4 mx-auto lg:mx-0">
+            <img src="/assets/images/heroImage.png" alt="BugBane" class="w-full max-w-sm h-32 sm:h-40 md:h-48 object-cover rounded-lg mb-4 mx-auto lg:mx-0">
           </div>
           
           <!-- Game Title -->
